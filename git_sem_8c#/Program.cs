@@ -1,4 +1,70 @@
-﻿
+// Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
+
+//  Console.Clear();
+
+// int[,] GetArray(int m, int n, int minValue, int maxValue)
+// {
+//     int[,] result = new int[m, n];
+//     for (int i = 0; i < m; i++)
+//     {
+//         for (int j = 0; j < n; j++)
+//         {
+//             result[i, j] = new Random().Next(minValue, maxValue + 1);
+//         }
+//     }
+//     return result;
+// }
+
+// int[,] GetArrayTwo(int m, int n, int minValue, int maxValue)
+// {
+//     int[,] result = new int[m, n];
+//     for (int i = 0; i < m; i++)
+//     {
+//         for (int j = 0; j < n; j++)
+//         {
+//             result[i, j] = new Random().Next(minValue, maxValue + 1);
+//         }
+//     }
+//     return result;
+// }
+
+// void PrintArray(int[,] inArray)
+// {
+//     for (int i = 0; i < inArray.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < inArray.GetLength(1); j++)
+//         {
+//             Console.Write($"{inArray[i,j]} ");
+//         }
+//         Console.WriteLine();
+//     }
+// }
+
+// Console.Write("Введите количество строк массива: ");
+// int rows = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите количество столбцов массива: ");
+// int columns = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите минимальный элемент массива: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите максимальный элемент массива: ");
+// int max = Convert.ToInt32(Console.ReadLine());
+// int[,] array = GetArray(rows, columns, min, max);
+// int[,] arrayTwo = GetArrayTwo(rows, columns, min, max);
+// int [,] array3 = arrayTwo;
+// PrintArray(array);
+// Console.WriteLine("----------------------- ");
+// PrintArray(arrayTwo);
+// Console.WriteLine("----------------------- ");
+    
+//     for (int i = 0; i < rows; i++)
+//     {
+//         for (int j = 0; j < columns; j++)
+//         {
+//             array3[i,j] = array[i,j] * arrayTwo[i,j];
+//         }
+//     }
+//     PrintArray(array3);
+
 // Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 
 //  Console.Clear();
